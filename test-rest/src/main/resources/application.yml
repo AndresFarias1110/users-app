@@ -1,0 +1,12 @@
+# ================================================================
+# URL ENDPOINTS
+# ===============================================================
+api:
+  uri:
+    basePath: /api
+    domain:
+      user: ${api.uri.basePath}/user
+    data:
+      retrieve: /retrieve
+      retrieveId: /retrieveId{id}
+      create: /create
